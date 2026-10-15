@@ -4,10 +4,10 @@
    Cari kode warna di https://htmlcolorcodes.com
    ========================================================= */
 :root {
-  --warna-utama: #370a4d;   /* warna header, judul, dan tombol */
+  --warna-utama: #502207;   /* warna header, judul, dan tombol */
   --warna-aksen: #14304A;   /* warna garis dan label versi */
-  --warna-latar: #F7F5F0;   /* warna latar halaman */
-  --warna-teks: #3cafb3;    /* warna tulisan */
+  --warna-latar: #8f6d18;   /* warna latar halaman */
+  --warna-teks: #010503;    /* warna tulisan */
   --warna-kartu: #FFFFFF;   /* warna kotak/kartu */
 }
 
