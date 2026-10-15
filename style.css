@@ -146,19 +146,45 @@ h2 {
 .grid-proyek {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 16px;
+  gap: 20px;
 }
 
 .kartu {
   background: var(--warna-kartu);
-  border-radius: 14px;
-  padding: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-  border-top: 4px solid var(--warna-utama);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  border-top: 5px solid var(--warna-utama);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.kartu:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  border-top-color: var(--warna-aksen);
+}
+
+.sub-proyek {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--warna-utama);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
 }
 
 .kartu h3 {
   margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.teknologi {
+  font-size: 14px;
+  opacity: 0.75;
+  margin-top: 16px;
+  margin-bottom: 0;
 }
 
 .teknologi {
